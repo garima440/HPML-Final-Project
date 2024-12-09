@@ -55,7 +55,7 @@ Output Labels:
 
 0: Sentences are not semantically equivalent.
 
-Results
+Results and Conclusion
 -------------
 Accuracy Improvement:<br>
 	•	The fine-tuned model achieves an accuracy improvement of 38% compared to the base model (from 43.87% to 81.87%). 
