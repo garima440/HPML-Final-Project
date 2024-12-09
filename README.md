@@ -55,9 +55,15 @@ Output Labels:
 
 0: Sentences are not semantically equivalent.
 
+Results
+-------------
+Accuracy Improvement:<br>
+	•	The fine-tuned model achieves an accuracy improvement of 38% compared to the base model (from 43.87% to 81.87%). 
+ 
+Latency Optimization:<br>
+	•	The fine-tuned model reduces the average inference latency by 64.9%, demonstrating significant performance efficiency (from 0.014255 seconds to 0.005 seconds).
 
 ## References
-
 
 1. **LoRA: Low-Rank Adaptation of Large Language Models**  
    Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen.
