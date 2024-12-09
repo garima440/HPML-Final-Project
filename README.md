@@ -1,7 +1,9 @@
 # HPML-Final-Project
 
-GOALS/ OBJECTIVES
-==================
+# Efficient Fine Tuning and Inference Optimization for TinyBert
+
+## GOALS / OBJECTIVES
+
 This project focuses on enhancing the performance and
 efficiency of TinyBERT, a pre-trained transformer-based
 language model. The goal is to implement and compare
@@ -11,8 +13,8 @@ deployment capabilities on resource-constrained devices.s/
 Objectives.
 
 
-APPROACH/TECHNIQUES
-===================
+## APPROACH/TECHNIQUES
+
 ● Fine-tuning with LoRA: To improve the
 fine-tuning process of TinyBERT by employing
 Low-Rank Adaptation (LoRA), which allows for
@@ -37,8 +39,8 @@ and analyze the model's performance in terms of
 speed, memory consumption, and efficiency gains
 resulting from the aforementioned techniques.
 
-Dataset Overview
-==================
+## Dataset Overview
+
 The Microsoft Research Paraphrase Corpus (MRPC) is one of the tasks in the GLUE Benchmark. It is designed to evaluate a model's ability to determine semantic equivalence between pairs of sentences. MRPC presents pairs of sentences extracted from online news sources and challenges the model to identify whether the sentences in each pair convey the same meaning.
 
 Data Details
@@ -54,8 +56,8 @@ Output Labels:
 0: Sentences are not semantically equivalent.
 
 
-References
-==========
+## References
+
 
 1. **LoRA: Low-Rank Adaptation of Large Language Models**  
    Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen.
