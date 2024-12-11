@@ -25,6 +25,11 @@ inference speed by implementing key-value caching
 mechanisms, allowing for more efficient attention
 computations.
 
+● Implementation of Weights & Biases Sweeps: for 
+hyperparameter optimization using sweeps with the 
+objective to maximize accuracy. 
+
+
 ● Model Quantization: To reduce the model's
 memory footprint and improve inference speed
 through quantization techniques without
