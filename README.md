@@ -58,7 +58,7 @@ Output Labels:
 Results and Conclusion
 -------------
 Accuracy Improvement:<br>
-	•	The fine-tuned model achieves an accuracy improvement of 63.73%% compared to the base model (from 43.87% to 81.87%). 
+	•	The fine-tuned model achieves an accuracy improvement of 81.87% compared to the base model (from 63.73% to 81.87%). 
  
 Latency Optimization:<br>
 	•	The fine-tuned model reduces the average inference latency by 82%, demonstrating significant performance efficiency (from 0.014255 seconds to 0.005 seconds).
