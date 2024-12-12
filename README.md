@@ -69,7 +69,7 @@ Latency Optimization:<br>
 	•	Below image shows the improvement in the inference latency accross different batch sizes
 ![image](https://github.com/user-attachments/assets/3eef7899-7a9f-4f99-a189-bd6a284cc456)
 
- Model Size reduction: 21.19MB: <br>
+ Model Size reduction: <br>
         •	The fine-tuned model size is reduced from 54.74MB to 21.19MB leading to a reduction of 61.3% in model size.
 
  Trainable Parameters:
@@ -90,3 +90,11 @@ Larger batch size handling for Flash Attention:
 
 3. **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness**  
    Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré.
+
+4. **GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understandin**
+   Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
+
+5. **bnb-4bit-integration:** https://colab.research.google.com/drive/1ge2F1QSK8Q7h0hn3YKuBCOAS0bK8E0wf\?usp=sharing
+
+6. **HellaSwag: Can a Machine Really Finish Your Sentence?**
+   Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi,
