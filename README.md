@@ -67,7 +67,7 @@ Accuracy Improvement:<br>
  
 Latency Optimization:<br>
 	•	Below image shows the improvement in the inference latency accross different batch sizes
-![image](https://github.com/user-attachments/assets/3eef7899-7a9f-4f99-a189-bd6a284cc456)
+![FA_latency](https://github.com/user-attachments/assets/7ce06805-fc99-4615-b47f-a686c7106547)
 
  Model Size reduction: <br>
         •	The fine-tuned model size is reduced from 54.74MB to 21.19MB leading to a reduction of 61.3% in model size.
@@ -76,8 +76,6 @@ Latency Optimization:<br>
         •	After the application of LoRA, the number of trainable parameters decreased substantially from 14.35 million to 120,434, 
                 leading to a reduction of 99% in the total parameters.
 
-Larger batch size handling for Flash Attention:<br>
-        •       When we implemented Flash Attention, the model was able to handle larger batch sizes upto 2048 batches
 
 
 ## References
