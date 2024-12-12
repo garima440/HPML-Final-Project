@@ -20,11 +20,6 @@ fine-tuning process of TinyBERT by employing
 Low-Rank Adaptation (LoRA), which allows for
 efficient updates to the model parameters.
 
-● Implementation of kv Caching: To optimize
-inference speed by implementing key-value caching
-mechanisms, allowing for more efficient attention
-computations.
-
 ● Implementation of Weights & Biases Sweeps: for 
 hyperparameter optimization using sweeps with the 
 objective to maximize accuracy. 
