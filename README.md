@@ -72,12 +72,12 @@ Latency Optimization:<br>
  Model Size reduction: <br>
         •	The fine-tuned model size is reduced from 54.74MB to 21.19MB leading to a reduction of 61.3% in model size.
 
- Trainable Parameters:
+ Trainable Parameters:<br>
         •	After the application of LoRA, the number of trainable parameters decreased substantially from 14.35 million to 120,434, 
                 leading to a reduction of 99% in the total parameters.
 
-Larger batch size handling for Flash Attention:
-        •  When we implemented Flash Attention, the model was able to handle larger batch sizes upto 2048 batches
+Larger batch size handling for Flash Attention:<br>
+        •       When we implemented Flash Attention, the model was able to handle larger batch sizes upto 2048 batches
 
 
 ## References
