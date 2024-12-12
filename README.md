@@ -67,7 +67,7 @@ Accuracy Improvement:<br>
  
 Latency Optimization:<br>
 	•	Below image shows the improvement in the inference latency accross different batch sizes
-![FA_latency](https://github.com/user-attachments/assets/7ce06805-fc99-4615-b47f-a686c7106547)
+![image](https://github.com/user-attachments/assets/e4cecebf-e9f9-489d-83fb-2533afa2252d)
 
  Model Size reduction: <br>
         •	The fine-tuned model size is reduced from 54.74MB to 21.19MB leading to a reduction of 61.3% in model size.
