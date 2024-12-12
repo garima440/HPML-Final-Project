@@ -63,10 +63,22 @@ Output Labels:
 Results and Conclusion
 -------------
 Accuracy Improvement:<br>
-	•	The fine-tuned model achieves an accuracy improvement of 81.87% compared to the base model (from 63.73% to 81.87%). 
+	•	The fine-tuned model achieves an accuracy improvement of 82.353% compared to the base model (from 63.73% to 82.35%). 
  
 Latency Optimization:<br>
-	•	The fine-tuned model reduces the average inference latency by 82%, demonstrating significant performance efficiency (from 0.014255 seconds to 0.005 seconds).
+	•	Below image shows the improvement in the inference latency accross different batch sizes
+![image](https://github.com/user-attachments/assets/3eef7899-7a9f-4f99-a189-bd6a284cc456)
+
+ Model Size reduction: 21.19MB: <br>
+        •	The fine-tuned model size is reduced from 54.74MB to 21.19MB leading to a reduction of 61.3% in model size.
+
+ Trainable Parameters:
+        •	After the application of LoRA, the number of trainable parameters decreased substantially from 14.35 million to 120,434, 
+                leading to a reduction of 99% in the total parameters.
+
+Larger batch size handling for Flash Attention:
+        •  When we implemented Flash Attention, the model was able to handle larger batch sizes upto 2048 batches
+
 
 ## References
 
