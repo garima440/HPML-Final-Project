@@ -91,3 +91,15 @@ Latency Optimization:<br>
 
 6. **HellaSwag: Can a Machine Really Finish Your Sentence?**
    Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi,
+
+## File Descriptions
+
+Below is a description of each file in this repository:
+
+- **`Base_model.ipynb`**: Contains the baseline implementation of the model before applying any optimizations or fine-tuning.
+- **`Efficient_Finetuning_and_Inference_Optimization_for_Tiny.ipynb`**: Demonstrates efficient fine-tuning techniques and inference optimization strategies for the TinyBert model.
+- **`Fine_tuned_Model_size_and_Validation_Accuracy.ipynb`**: Analyzes the size and validation accuracy of the fine-tuned model.
+- **`Inference_Comparisons.ipynb`**: Compares inference times and other metrics across base model and fine tuned model with and without flash attention configurations.
+- **`W&B_sweeps_Example_notebook.ipynb`**: Illustrates the use of Weights & Biases sweeps for hyperparameter tuning.
+- **`int8_quantization.ipynb`**: Explores int8 quantization techniques and compare it with base model using nf4 quantization.
+- **`Trace_Files`**: A directory containing trace files generated during profiling for base model and fine tuned model.
